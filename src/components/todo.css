@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(55, 129, 86);
+}
+.Todo-list{
+    margin: 10px auto 0;
+    width: 90%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 3px 5px rgb(255, 0, 0), -2px, -3px 5px black;
+    border-radius: 5%;
+
+
+}
+.Todo-list h1{
+    text-align: center;
+    color: rgb(38, 38, 98);
+}
+.Todo-list .head{
+    display: flex;
+    align-items: center;
+    
+}
+.head .head input{
+    flex: 1;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    height: 30px;
+    padding-left: 20px;
+}
+.Todo-list .head button{
+    background-color: rgb(37, 4, 37);
+    color: rgb(244, 240, 240);
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+.Todo-list .todo{
+    display: flex;
+    background-color: rgb(194, 219, 219);
+    margin-top: 20px;
+}
+.Todo-list .todo p{
+    flex: 1;
+    padding-left: 20px;
+}
+.Todo-list .todo i{
+    color: red;
+    padding-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
